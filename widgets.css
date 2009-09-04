@@ -1,0 +1,324 @@
+/* sizing stylings */
+.full {
+    width: 100%;
+}
+
+.half {
+    float: left;
+    width: 50%;
+    margin: 10px 0px;
+}
+
+/* specialized stylings */
+.center_content {
+    text-align: center;
+}
+
+.amplify { 
+    color: #91918E;
+    font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+    font-size: 1.0em;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.enlarge { 
+    font-size: 1.25em;
+    color: #444444;
+    font-weight: bold;
+}
+
+.shrink { 
+    font-size: 0.8em;
+    color: #444444;
+}
+
+.new { 
+    color: #bb5555;
+    font-weight: bold;
+}
+
+.primary_number { 
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* for flash messages */
+.message {
+    font-weight: bold;
+    padding: 15px;
+    margin: 0px;
+}
+
+.notice {
+    color: #54800C;
+    background-color: #DDEFBF;
+}
+
+.error {
+    color: #B34634;
+    background-color: #F1C7C1;
+}
+
+.info {
+    color: #6e8da8;
+    background-color: #D7E8F6;
+}
+
+/* Error highlighting */
+.fieldWithErrors { 
+    padding: 2px;
+    background-color: #f1c7c1;
+    display: table;
+}
+
+.formError {  
+    color: #b34634;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* block notification elements */
+.tip {
+    border: 2px dotted #929EA8;
+    background-color: #D7E8F6;
+    padding: 15px 5px 15px 55px;
+    background-image: url('/images/ktip.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.note {
+    padding: .8em;
+    border-width: 1px;
+    border-style: dashed;
+    background-color: #e7e7e7;
+}
+
+.note.highlight {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.note.explain { 
+    font-size: 18px;
+}
+
+.note.form { 
+    border-style: solid;
+    padding: 15px 20px;
+}
+
+.bar { 
+    width: auto;
+    background-color: #cccccc;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    text-align: center;
+}
+
+/* Styles unordered lists into menus */
+/* A menu is a list of links, usually without bullets */
+ul.menu {
+    margin: 0px;
+    padding: 0px;
+    list-style: none inside none;
+    overflow: hidden;
+    text-align: left;
+}
+ul.menu li a { 
+    text-decoration: none;
+}
+
+ul.menu img { 
+    vertical-align: -3px;
+}
+
+/* Styles the orientation of the menu */
+ul.menu.horizontal li { 
+    margin: 0px 3px;
+    float: left;
+}
+ul.menu.horizontal li a { 
+    text-align: center;
+    display: block;
+}
+
+ul.menu.vertical li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+ul.menu.vertical li a { 
+    display: block;
+    text-align: left;
+}
+
+/* Tabbed horizontal menu */
+ul.menu.tabbed li {
+    border-left: 1px solid #707070;
+    border-top: 1px solid #707070;
+    border-right: 1px solid #707070;
+    border-bottom: 1px none white;
+    background-color: #c0c0c0;
+}
+ul.menu.tabbed li a { 
+    padding: 0.5em 1em;
+    width: 5em;
+}
+ul.menu.tabbed li a:hover { 
+    background-color: #eee;
+}
+
+/* Button horizontal menu */
+ul.menu.buttoned li {
+    border: 1px solid #707070;
+    background-color: #c0c0c0;
+}
+ul.menu.buttoned li a { 
+    padding: 0.3em 1em;
+}
+ul.menu.buttoned li a:hover { 
+    background-color: #eee;
+}
+
+/* Bar horizontal sub-menu */
+ul.menu.bar { 
+    background-color: #909090;
+}
+ul.menu.bar li { 
+    margin: 0px;
+}
+ul.menu.bar li a { 
+    padding: 0.4em 1em;
+    width: 4em;
+    border-left: 1px solid #909090;
+    border-right: 1px solid #909090;
+    text-align: center;
+}
+ul.menu.bar li a:hover { 
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+    background-color: #eee;
+}
+
+/* explain menu */
+ul.menu.explain {
+    margin: 10px 0px;
+}
+
+ul.menu.explain li {
+    font-size: 0.9em;
+    padding: 5px 10px;  
+    margin: 0px;
+    border: 1px solid transparent;
+    list-style-position: outside;
+    background-color: none;
+}
+
+ul.menu.explain li a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+ul.menu.explain li h3 { 
+    font-size: 1.1em;
+}
+
+ul.menu.explain li span {
+    display: block;
+    color: #404040;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0.25em 0px;
+}
+
+ul.menu.explain li:hover {
+    border: 1px solid #404040;
+    background-color: #707070;
+}
+
+ul.menu.explain li:hover a {
+    color: #404040;
+}
+
+ul.menu.explain li:hover span {
+    color: #ffffff;
+}
+
+/* style stats */
+ul.stats { 
+    list-style: none inside none;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+ul.stats.horizontal li { 
+    display: inline;
+    padding: 0px 10px;
+}
+
+/* styles resortable lists */
+ul.resortable {
+    margin: 5px 0px;
+    padding: 0px 20px;
+}
+
+ul.resortable li {
+    list-style-type: none;
+    list-style-position: outside;
+    cursor: move;
+    padding: 0px;
+    margin: 2px 0px;
+}
+
+ul.resortable li span.controls {
+}
+
+/* table listing stylings */
+table.listing { 
+    width: 100%;  
+    border-collapse: collapse;
+}
+
+table.listing th {
+    color: #575757;
+    background-color: #f0eec5;
+}
+
+table.listing tr.draft {
+    filter:alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity:0.5;
+}
+
+table.listing tr.even {
+    background-color: #fafafa;
+}
+
+table.listing tr.odd {
+    background-color: #f0f0f0;
+}
+
+table.listing td { 
+    padding: 6px 5px;
+}
+
+/* table linear form stylings */
+table.linear_form { 
+    width: 100%;
+}
+
+table.linear_form td { 
+    padding: 5px 0px;
+}
+
+/* search form stylings */
+
+input.search { 
+    background: white;
+    background-image: url(/images/magnifier.png);
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+}

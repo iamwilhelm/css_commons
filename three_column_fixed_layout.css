@@ -1,0 +1,164 @@
+/* This gives you a three column fixed layout - Wil Chung */
+
+/* defaults a small font size */
+body { 
+    font-family: 'Avenir LT', 'Helvetica d', 'Helvetica', 'Arial', sans-serif;
+    font-size: 10pt;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.5em;
+
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* gets rid of annoying default settings */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1em;
+    margin: 15px 0px;
+    padding: 0px 30px;
+}
+
+a img {
+    border-width: 0px;
+}
+
+table td {
+    vertical-align: top;
+}
+
+/* for quick debugging */
+.border { 
+    border: 1px solid black;
+}
+.mark {
+    background-color: #afa;
+}
+
+.container {
+    /* background-color: #faa; */
+}
+.half {
+    /* background-color: #afa; */
+}
+div {
+}
+
+/* general format of triple columns */
+.frame { 
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+.splash {
+    height: 290px;
+    background-color: #eee;
+}
+.splash > h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.splash > h1 + h2 {
+    margin-top: 0px;
+}
+
+.header {
+    text-align: right;
+    padding: 15px 0px;
+    margin-top: 10px;
+}
+
+.section {
+}
+
+.aside {
+    float: right;
+}
+
+.footer {
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.container {
+    padding: 0px 30px;
+    margin: 15px 0px;
+}
+
+p + h1, p + h2, p + h3, p + h4, p + h5, p + h6 {
+    margin-top: 25px;
+}
+
+/* content sections */
+h1 > span, h2 > span, h3 > span {
+    font-size: 0.45em;
+}
+
+div#content {
+    min-height: 300px;
+}
+
+/* mini-layouts */
+.title_bar { 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.title_bar .title { 
+    text-align: left;
+}
+.title_bar .control { 
+    text-align: right;
+}
+
+.header_bar { 
+    margin: 0px 0px 20px 0px;
+}
+.header_bar .header_block { 
+    text-align: left;
+    padding: 5px 5px;
+}
+.header_bar .icon {
+    margin: 0px 10px 0px 0px;
+}
+.header_bar .title { 
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 2px 0px;
+}
+.header_bar .tagline {
+}
+.header_bar .action { 
+    height: 1.5em;
+    float: right;
+    padding: 0.25em;
+    margin: 5px 0px 0px 0px;
+}
+
+#chart_div {
+    margin: 20px auto 20px auto;
+}
+/* A fix for laying out image galleries in safari, IE, and firefox */
+.ib-fix { 
+    list-style: none inside none;
+    padding: 0px;
+}
+
+.ib-fix li { 
+    display: -moz-inline-box; 
+    moz-box-orient: vertical;
+    display: inline-block; 
+    vertical-align: bottom; 
+    word-wrap: break-word;
+}
+* html .ib-fix li { display:inline; }
+* + html .ib-fix li { display:inline; }
+.ib-fix li > * { display:table; table-layout:fixed; overflow:hidden; }
