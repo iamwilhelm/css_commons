@@ -9,6 +9,18 @@
     margin: 10px 0px;
 }
 
+.one_fourth {
+    float: left;
+    width: 25%;
+    margin: 10px 0px;
+}
+
+.three_fourth {
+    float: left;
+    width: 75%;
+    margin: 10px 0px;
+}
+
 /* specialized stylings */
 .center_content {
     text-align: center;
