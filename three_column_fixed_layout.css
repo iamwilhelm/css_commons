@@ -20,7 +20,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1em;
     margin: 15px 0px;
-    padding: 0px 30px;
+    padding: 0px 0px;
 }
 
 a img {
@@ -41,11 +41,6 @@ table td {
 
 .container {
     /* background-color: #faa; */
-}
-.half {
-    /* background-color: #afa; */
-}
-div {
 }
 
 /* general format of triple columns */
@@ -77,6 +72,7 @@ div {
 }
 
 .section {
+    clear: both;
 }
 
 .aside {
