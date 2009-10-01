@@ -21,6 +21,22 @@
     margin: 10px 0px;
 }
 
+.one_third {
+    float: left;
+    width: 33%;
+    margin: 10px 0px;
+}
+
+.two_third {
+    float: left;
+    width: 66%;
+    margin: 10px 0px;
+}
+
+.clear {
+    clear: both;
+}
+
 /* specialized stylings */
 .center_content {
     text-align: center;
@@ -36,13 +52,10 @@
 
 .enlarge { 
     font-size: 1.25em;
-    color: #444444;
-    font-weight: bold;
 }
 
 .shrink { 
     font-size: 0.8em;
-    color: #444444;
 }
 
 .new { 
@@ -53,6 +66,10 @@
 .primary_number { 
     font-size: 2em;
     font-weight: bold;
+}
+
+.fade {
+    color: #888;    
 }
 
 /* for flash messages */
@@ -128,6 +145,47 @@
     border-top: 1px solid #999999;
     border-bottom: 1px solid #999999;
     text-align: center;
+}
+
+/* styles a list of results */
+ul.results {
+    margin: 0px;
+    padding: 0px;
+    list-style: none inside none;
+    text-align: left;
+}
+
+ul.results li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul.results ul.results li {
+    margin-left: 20px;
+}
+
+/* mini-layout for cards */
+.license {
+    min-height: 100px;
+    width: 100%;
+}
+
+.license .sidebar {
+    float: left;
+    width: 75px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.license .details {
+    padding: 5px;
+    margin-left: 80px
+}
+
+.license .details h3 { margin: 0px; }
+.license .details p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* Styles unordered lists into menus */
