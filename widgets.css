@@ -211,12 +211,18 @@ ul.menu img {
 
 /* Styles the orientation of the menu */
 ul.menu.horizontal li { 
-    margin: 0px 3px;
+    margin: 0px 5px;
     float: left;
 }
 ul.menu.horizontal li a { 
     text-align: center;
     display: block;
+}
+ul.menu.horizontal li:first-child {
+    margin-left: 0px;
+}
+ul.menu.horizontal li:last-child {
+    margin-right: 0px;
 }
 
 ul.menu.vertical li {
