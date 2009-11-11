@@ -72,6 +72,10 @@
     color: #888;    
 }
 
+.hidden {
+    display: none;
+}
+
 /* for flash messages */
 .message {
     font-weight: bold;
