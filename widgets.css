@@ -43,11 +43,9 @@
 }
 
 .amplify { 
-    color: #91918E;
-    font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
-    font-size: 1.0em;
-    font-style: italic;
-    font-weight: normal;
+    font-family: "Goudy Old Style","Palatino","Book Antiqua",serif;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .enlarge { 
@@ -200,9 +198,6 @@ ul.menu {
     list-style: none inside none;
     overflow: hidden;
     text-align: left;
-}
-ul.menu li a { 
-    text-decoration: none;
 }
 
 ul.menu img { 
